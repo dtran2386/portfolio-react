@@ -23,7 +23,6 @@ function App() {
       </main>
 
       <Footer />
-
       <ScrollToTop />
     </div>
   );
