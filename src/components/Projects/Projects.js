@@ -3,8 +3,6 @@ import { projects } from "../../utils/sections";
 import ProjectContainer from "../ProjectContainer/ProjectContainer";
 import "./Projects.css";
 
-import reactWeatherApp from "../../images/react-weather-app.PNG";
-
 const Projects = () => {
   if (!projects.length) return null;
 
