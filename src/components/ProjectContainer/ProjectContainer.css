@@ -10,8 +10,10 @@
   transform: translateY(-7px);
 }
 
-.project__description {
+.project_image {
   margin-top: 1em;
+  width: 90%;
+  height: 90%;
 }
 
 .project__stack {

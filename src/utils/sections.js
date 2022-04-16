@@ -1,3 +1,5 @@
+import weatherApp from "../images/react-weather-app.PNG";
+
 const header = {
   homepage: "",
   title: "DKT",
@@ -18,16 +20,15 @@ const about = {
 
 const projects = [
   {
-    name: "Project 1",
-    description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    stack: ["SASS", "TypeScript", "React"],
-    sourceCode: "https://github.com",
-    livePreview: "https://github.com",
+    name: "React Weather App with Geolocation",
+    image: weatherApp,
+    stack: ["React", "+", "CSS"],
+    sourceCode: "https://github.com/dtran2386/react-weather-app",
+    livePreview: "https://reactweatherapp11.netlify.app/",
   },
   {
     name: "Project 2",
-    description:
+    image:
       "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
     stack: ["SASS", "TypeScript", "React"],
     sourceCode: "https://github.com",
@@ -35,7 +36,7 @@ const projects = [
   },
   {
     name: "Project 3",
-    description:
+    image:
       "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
     stack: ["SASS", "TypeScript", "React"],
     sourceCode: "https://github.com",

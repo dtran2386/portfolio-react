@@ -31,6 +31,7 @@
 
 .image {
   border-radius: 50%;
+  margin-top: 2em;
 }
 
 @media (max-width: 600px) {
