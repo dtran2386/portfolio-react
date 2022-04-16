@@ -10,11 +10,7 @@ const ProjectContainer = ({ project }) => (
     <div>
       {" "}
       <a href={project.livePreview} target="_blank" rel="noreferrer">
-        <img
-          src={project.image}
-          className="project_image"
-          alt="project image"
-        />
+        <img src={project.image} className="project_image" alt="project" />
       </a>
     </div>
 
